@@ -114,19 +114,14 @@
   align-items: center;
 }
 
-.nav-links li a {
+.nav-links a {
   color: white;
   font-family: var(--main-font);
 }
 
-.nav-icons li img {
+.nav-icons img {
   width: 1rem;
   margin: auto 1rem;
-}
-
-.nav-icons li:last-child img {
-  height: 1rem;
-  width: auto;
 }
 
 .nav-cont-logo-mob {

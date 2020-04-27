@@ -965,7 +965,7 @@ footer {
     flex-direction: row;
   }
 
-  .nav-links li {
+  .nav-link {
     margin-bottom: 1rem;
   }
 

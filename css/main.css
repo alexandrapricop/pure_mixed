@@ -1075,12 +1075,16 @@ footer {
     margin-bottom: 2rem;
   }
   .slide-info {
-    margin-bottom: 2rem;
+    margin-:0;
   }
   .white-circle {
-    padding: 2rem;
+    max-width: 50vw;
+    padding: 1rem;
+    margin-top: 1rem;
   }
-
+  .slide-info h1{
+    font-size: 50px;
+  }
   .description-row {
     line-height: 18px;
     font-size: 14px;
@@ -1240,13 +1244,18 @@ footer {
   }
 
 }
-
+@media screen and (max-width: 350px) {
+.slide-info .btn{
+  max-height: 2rem;
+  width: 130px;
+}
+}
 @media screen and (min-width: 320px) {
   .slide-info h1 {
-    font-size: calc(80px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(60px + 6 * ((100vw - 320px) / 680));
   }
   .slide-info p {
-    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(12px + 6 * ((100vw - 320px) / 680));
   }
   .slide-info div {
     font-size: calc(10px + 6 * ((100vw - 320px) / 680));

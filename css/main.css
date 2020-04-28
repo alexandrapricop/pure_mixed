@@ -979,6 +979,7 @@ footer {
     border: 2px solid white;
     width: 2rem;
     margin: 0.5rem;
+    background: white;
   }
 
   .nav-icons.flex {
@@ -1016,7 +1017,7 @@ footer {
   }
   .display-services {
     flex-direction: column;
-    gap: 20px;
+    margin: 2rem;
   }
 
   .newsletter {

@@ -644,9 +644,9 @@ footer {
 
 .copyright {
   margin-right: 2rem;
+  text-align: center;
 }
 
-/* THIS HAS BEEN REVIEWED*/
 
 .btn {
   display: flex;
@@ -925,6 +925,26 @@ footer {
   z-index: 4;
 }
 
+@keyframes fade-in{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+.hide_slide{
+  display: none;
+}
+
+.show_slide{
+  animation-name: fade-in;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
 /*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
 
 @media screen and (min-width: 1170px) {
@@ -1200,6 +1220,10 @@ footer {
     height: 40px;
     width: auto;
   }
+  .display-services-card{
+    width: 300px;
+  }
+
 }
 
 @media screen and (min-width: 320px) {
@@ -1213,3 +1237,14 @@ footer {
     font-size: calc(10px + 6 * ((100vw - 320px) / 680));
   }
 }
+
+@media only screen and (max-width: 310px) {
+  .nav-cont-logo-mob {
+    height: 40px;
+    width: auto;
+  }
+  .display-services-card{
+    width: 250px;
+  }
+}
+

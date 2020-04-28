@@ -1075,7 +1075,7 @@ footer {
     margin-bottom: 2rem;
   }
   .slide-info {
-    margin-:0;
+    margin:0;
   }
   .white-circle {
     max-width: 50vw;
@@ -1135,7 +1135,7 @@ footer {
     margin: 0;
   }
   .slide-info .btn{
-    max-height: 2rem;
+    max-height: 3rem;
     width: 140px;
   }
 }
@@ -1172,6 +1172,7 @@ footer {
   .copyright {
     margin: 0;
   }
+
 
 }
 @media only screen and (max-width: 550px) {
@@ -1266,6 +1267,13 @@ footer {
   }
 }
 
+
+@media only screen and (max-width: 360px) {
+.slide-info .btn{
+  max-height: 2rem;
+  width: 140px;
+}
+} 
 @media only screen and (max-width: 310px) {
   .nav-cont-logo-mob {
     height: 40px;

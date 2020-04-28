@@ -185,7 +185,6 @@ var onresize = function () {
     if (width <= 850) {
         productsSliderCharacteristics.modifyNumberOfProducts(1);
         productsSliderCharacteristics.modifyLastProductsPosition();
-        console.log(productsSliderCharacteristics)
 
     } else if (width <= 1000) {
         productsSliderCharacteristics.modifyNumberOfProducts(2);
@@ -233,8 +232,7 @@ productsSlideRightButton.addEventListener("click", () => {
 
         for(index = productsSliderCharacteristics.firstProductPosition; index <= productsSliderCharacteristics.lastProductPosition; index++)
             productsSlides[index].classList.remove("hide_product");
-        
-        console.log(firstProductPosition,lastProductPosition)
+    
       
 
     }
@@ -262,7 +260,6 @@ productsSlideLeftButton.addEventListener("click", () => {
       
     }
      if(productsSliderCharacteristics.firstProductPosition == 0){
-         console.log("here");
         productsSlideLeftButton.classList.add("inactive")
     }
 
